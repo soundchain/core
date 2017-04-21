@@ -1,5 +1,8 @@
-SoundChain
+# SoundChain
+
+
 WARNING: Not yet well tested!
+
 
 ERC23Interface.sol is simple ERC23 interface used on this contract.
 
@@ -11,9 +14,11 @@ SoundToken.sol is contract that will be deployed on Soundtrack token creation.
 
 MasterContract.sol is contract that will calculate payments, manage token deployment and licenses.
 
-How it will work
 
-Soundtrack copyrights owner can create a license that will help him to redistribute copyrights by tokens. When license is created by MasterContract it will also deploy SoundToken token contract with choosen token supply/monetary policy.
+## How it will work
+
+Soundtrack copyrights owner can create a license that will help him to redistribute copyrights by tokens.
+When license is created by MasterContract it will also deploy SoundToken token contract with choosen token supply/monetary policy.
 
 Soundtrack must be assigned to this license with a choosen Per Play price.
 
