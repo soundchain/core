@@ -30,4 +30,4 @@ It means that there will be 1% chance that call will occur when user will listen
 
 When MasterContract is called by track listening it will send SOCH to token contract associated with listened track where token holders can claim their SOCH.
 
-I'm also thinking about scheme where mastercontract will calculate listens without immediately paying SOCH to token contracts. It will allow to trigger payments to licensed token contracts manually (once a month/ week/ day) and also optimize gas usage.
+We are also thinking about scheme where mastercontract will calculate listens without immediately paying SOCH to token contracts. It will allow to trigger payments to licensed token contracts manually (once a month/ week/ day) and also optimize gas usage.
